@@ -8,7 +8,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import taichi221228.golden_age.GoldenAge;
 
 public class DeferredRegisterHelper {
-    public static <T> DeferredRegister<T> createDeferredRegister(IForgeRegistry<T> registryType) {
+    private static <T> DeferredRegister<T> createDeferredRegister(IForgeRegistry<T> registryType) {
         return DeferredRegister.create(registryType, GoldenAge.MODID);
     }
 
