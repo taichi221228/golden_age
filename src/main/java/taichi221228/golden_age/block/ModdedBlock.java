@@ -11,8 +11,8 @@ import taichi221228.golden_age.util.DeferredRegisterHelper;
 import java.util.function.Supplier;
 
 public class ModdedBlock {
-    private static final DeferredRegister<Block> BLOCKS = DeferredRegisterHelper.createDeferredBlockRegister();
-    private static final DeferredRegister<Item> ITEMS = DeferredRegisterHelper.createDeferredItemRegister();
+    private final DeferredRegister<Block> BLOCKS = DeferredRegisterHelper.createDeferredBlockRegister();
+    private final DeferredRegister<Item> ITEMS = DeferredRegisterHelper.createDeferredItemRegister();
 
     protected RegistryObject<Block> block;
     protected RegistryObject<Item> blockItem;
