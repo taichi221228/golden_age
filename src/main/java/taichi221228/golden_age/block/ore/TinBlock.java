@@ -10,4 +10,3 @@ public class TinBlock extends ModdedBlock {
         super("tin_block", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     }
 }
-

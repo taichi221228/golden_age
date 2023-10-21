@@ -10,4 +10,3 @@ public class DeepslateTinOre extends ModdedBlock {
         super("deepslate_tin_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COPPER_ORE)));
     }
 }
-

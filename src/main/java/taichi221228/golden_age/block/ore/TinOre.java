@@ -10,4 +10,3 @@ public class TinOre extends ModdedBlock {
         super("tin_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).requiresCorrectToolForDrops()));
     }
 }
-
