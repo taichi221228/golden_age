@@ -7,7 +7,7 @@ import taichi221228.golden_age.block.ModdedBlock;
 
 public class TinBlock extends ModdedBlock {
     public TinBlock() {
-        super("tin_block", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+        super("tin_block", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     }
 }
 
